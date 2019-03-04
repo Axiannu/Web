@@ -1,6 +1,83 @@
-# FY LX
+# 助力翻译
 
-标签（空格分隔）： 未分类
+## 总结
+- 本页介绍一些基本注意事项，帮助您开始编写残障人士更容易访问的Web内容。这些提示是帮助您满足Web内容可访问性指南（WCAG）要求的良好实践。请按照相关的wcag需求链接、“了解”文档中的详细背景、教程中的指南、用户故事等进行操作。
+#### 页面内容
+- 提供信息丰富、独特的页面标题
+- 使用标题传达意义和结构
+- 使链接文本有意义
+- 为图像编写有意义的文本备选方案
+- 为多媒体创建文本和标题
+- 提供明确的指示
+- 保持内容清晰简洁
+## 提供信息丰富、独特的页面标题
+对于每个网页，提供一个简短的标题，描述网页内容并将其与其他网页区分开来。页面标题通常与页面的主标题相同。将唯一和最相关的信息放在第一位；例如，将页面名称放在组织名称之前。对于属于多步骤流程的页面，请在页面标题中包含当前步骤。
+#### 例子：页面标题
+- 主页标题
+    - 太空泰迪公司
+- 页面名称后跟组织名称
+    -最新消息•Space Teddy Inc.
+- 页面名称，包括进程中的步骤
+    - 购买您的熊（第1步，共3步）•太空泰迪公司
+#### 更多信息
+- WCAG
+    - 标题为2.4.2的页面（理解2.4.2）
+## 使用标题传达意义和结构
+使用短标题对相关段落进行分组，并清楚地描述章节。好的标题提供了内容的概要。
+#### 示例：使用标题组织内容
+- 缺少标题 ×
+- 使用标题和副标题 √
+#### 更多信息
+- WCAG
+    - 标题和标签2.4.6（理解2.4.6）
+    - 章节标题2.4.10（理解2.4.10）
+    - 信息和关系1.3.1（理解1.3.1）
+- 用户故事
+    - 屏幕阅读器用户如何使用标题进行导航
+
+-----
+### 使文本链接更加有意义
+描写链接内容能使链接内容的目标明确，从而避免混乱的文本链接，就像“点这里”或者“阅读更多”。还有暗示目标链接的相关信息的作用，就像文件类型和大小，“提议文件 (RTF, 20MB)”就是其中的一种。
+
+##### 案例：用链接内容描述目标页。
+- 无信息的错误示范：获取更多独立设备的信息，[点这里]()。
+- 有意义信息的正确示范：阅读更多[关于独立设备的信息]()。
+
+##### 更多信息
+- WCAG
+    - [链接目的（上下文）2.4.4](https://www.w3.org/WAI/WCAG21/quickref/#link-purpose-in-context)[      （理解2.4.4）](https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context)
+    - [链接目的（仅是链接）2.4.9](https://www.w3.org/WAI/WCAG21/quickref/#link-purpose-link-only)[      （理解2.4.9）](https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-link-only)
+
+
+### 为图片图片撰写有意义的替代文本
+为每一张图片撰写可供替代性信息或图片的功能文字。如果是纯粹的装饰性图片，就没有必要加上替代性文字。
+
+##### **案例：利用替代性文本传达重要信息。**
+- **无关键信息的示范**：充电:使用提供的电缆和电源适配器将手机连接到电源插座。**图像替代文字:**“充电手机”![Charging phone](https://www.w3.org/WAI/tips/img/phone_charging.png)
+
+- **有关键信息的示范**：充电：使用提供的电缆和电源适配器将手机连接到电源插座。**替代文字图像**:“插入电缆的底部边缘的电话。” ![Plug cable into the bottom edge of the phone](https://www.w3.org/WAI/tips/img/phone_charging.png)
+> 替代文本通常不可见;它包含在这个示例中，这样您就可以看到它是什么。
+
+##### 更多信息
+- WCAG
+    - [非文本内容1.1.1](https://www.w3.org/WAI/WCAG21/quickref/#non-text-content)[      （理解1.1.1）](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content)
+- 格外的辅导
+    - [图片](https://www.w3.org/WAI/tutorials/images/)
+- 用户故事
+    - [描述盲人用户的文本替代方案的价值](https://www.w3.org/WAI/people-use-web/user-stories/#accountant)
+
+
+### 为多媒体创建文字记录和字幕
+对于只有音频的内容，如播客，提供一份文本。对于音频和视频内容，如培训视频，也提供说明。在笔录和字幕中包含对理解内容很重要的语音信息和声音，例如“门吱吱”。对于视频记录，还包括对重要视觉内容的描述，例如“Athan 离开房间”。
+
+##### 更多信息
+- WCAG
+    - [标题(预先录制的)1.2.2](https://www.w3.org/WAI/WCAG21/quickref/#captions-prerecorded)[      （理解1.2.2）](https://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded)
+    - [音频描述或媒体替换(预先录制的)1.2.3](https://www.w3.org/WAI/WCAG21/quickref/#audio-description-or-media-alternative-prerecorded)[      （理解1.2.3）](https://www.w3.org/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded)
+
+- 用户故事
+    - [描述字幕如何帮助失聪学生](https://www.w3.org/WAI/people-use-web/user-stories/#onlinestudent)
+
 
 ---
 
